@@ -1,0 +1,9 @@
+pre-commit:
+  parallel: false
+  commands:
+    sort-imports:
+      glob: "*.dart"
+      run: flutter pub run import_sorter:main . && git add .
+    formatter:
+      glob: "*.dart"
+      run: dart format . && git add .
