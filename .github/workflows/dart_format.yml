@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  deploy:
+  format:
     runs-on: ubuntu-latest
     defaults:
       run:
