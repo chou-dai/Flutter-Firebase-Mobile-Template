@@ -19,7 +19,7 @@ class _HelpScreenState extends State<HelpScreen> {
     return Container(
       color: isLightMode ? AppTheme.nearlyWhite : AppTheme.nearlyBlack,
       child: SafeArea(
-        top: false,
+        top: false, 
         child: Scaffold(
           backgroundColor:
               isLightMode ? AppTheme.nearlyWhite : AppTheme.nearlyBlack,
