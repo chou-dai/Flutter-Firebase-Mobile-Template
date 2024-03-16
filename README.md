@@ -46,5 +46,5 @@ This flutter project is cloned from https://github.com/mitesh77/Best-Flutter-UI-
 ## Appendix
 - Dart Format command
     ```
-    dart format
+    dart format .
     ```
