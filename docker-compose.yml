@@ -1,18 +1,6 @@
 version: "3.9"
 
 services:
-  flutter: 
-    build:
-      context: .
-      dockerfile: ./flutter/Dockerfile
-    image: "flutter:latest"
-    volumes:
-      - ./flutter/:/flutter
-    command: /bin/bash -c "/bin/bash"
-    # environment:
-    #   - FIRESTORE_EMULATOR_HOST=localhost:8080
-    tty: true
-
   firebase:
     build:
       context: .
