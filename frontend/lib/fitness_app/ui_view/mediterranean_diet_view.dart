@@ -380,7 +380,8 @@ class MediterranesnDietView extends StatelessWidget {
                                     child: Row(
                                       children: <Widget>[
                                         Container(
-                                          width: ((70 / 1.2) * animation!.value),
+                                          width:
+                                              ((70 / 1.2) * animation!.value),
                                           height: 4,
                                           decoration: BoxDecoration(
                                             gradient: LinearGradient(colors: [

@@ -41,3 +41,10 @@ This flutter project is cloned from https://github.com/mitesh77/Best-Flutter-UI-
     - Fireabase Authentication
     - Firestore
     - storage 
+
+
+## Appendix
+- Dart Format command
+    ```
+    dart format
+    ```
